@@ -1,0 +1,95 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    background-color: hsl(216, 50%, 16%);
+    width: 250px;
+    height: 460px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .3);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.nft-id {
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.nft-description {
+    font-size: 15px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.prize-container {
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.prize {
+    color:hsl(178, 100%, 50%);
+}
+
+.days {
+    display: inline;
+    margin-left: 80px;
+    color: hsl(215, 51%, 70%);
+}
+
+.line {
+    margin-top: 10px;
+    border: none;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.credit {
+    color: hsl(215, 51%, 70%);
+}
+
+.creator {
+    display: inline;
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-area {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer-text {
+    margin-left: 15px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.prize-text {
+    margin-left: 5px;
+}
+
+.footer-area img {
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+
